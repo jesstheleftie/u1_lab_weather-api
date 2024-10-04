@@ -1,0 +1,80 @@
+body{
+    background-color: lightblue;
+}
+.title{
+    font-family: Comfortaa;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px
+
+}
+.input-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+   
+
+}
+
+#textInput{
+    height: 33px;
+    width: 250px;
+    /* margin-right: 8px; */
+    border-radius: 30px;
+    border: 2px solid rgb(46, 116, 213);
+    font-family: poppins;
+    padding-left: 17px;
+
+}
+
+#submitButton{
+   
+    position: absolute;
+    left: 62%;
+    height: 30px;
+    top: 4px;
+    border: 2px solid rgb(85, 131, 201);
+    color: white;
+    font-family: poppins;
+    border-radius: 50%;
+    background-color: rgb(85, 131, 201);
+    cursor: pointer;
+    
+}
+
+#submitButton:hover{
+    background-color:rgb(131, 160, 204)
+}
+
+#cityName{
+    text-align: center;
+    font-family: comfortaa;
+    font-weight: light;
+    font-size: 25px;
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+}
+
+#temp{
+    text-align: center;
+    font-family: comfortaa;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 3px 0 grey
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+
+#condition-text{
+    text-align: center;
+    font-family: comfortaa;
+    font-size: 20px;
+
+    
+}
